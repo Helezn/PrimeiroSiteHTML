@@ -1,0 +1,8 @@
+
+button{
+    background-color: #C4AE5F;
+    color: brown;
+    height: 35px;/*altura*/
+    width: 110px;/*largura*/
+    border: none; /*especifico do botão remove a borda*/
+}

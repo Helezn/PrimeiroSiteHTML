@@ -1,0 +1,75 @@
+.cointainer {
+    display: grid;
+    /*divide em grade*/
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 3px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #292929;
+    height: 60px;
+    /*altura*/
+    grid-column-start: 1;
+    /*dizendo para o header qual coluna vai começar*/
+    grid-column-end: 3;
+    /*dizendo para o header qual coluna vai terminar*/
+    display: flex;
+    /*flex-direction: column; caso quisesse manter em coluna*/
+    justify-content: space-between;
+    /*deixa espaçamento entre elementos da div*/
+    /*justify-content: space-around;deixa espaçamento entre elementos da div sem ir até o canto*/
+    align-items: center;
+}
+
+main {
+    height: 230px;
+    /*altura*/
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+aside {
+    background-color: #b2adad;
+    height: 670px;
+    /*altura*/
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.fundo {
+    width: 100%;/*largura do cmponente pai main*/
+    height: 100%; /*largura da imagem*/
+    object-fit: cover; /*ajuste - cobrir*/
+    object-position: center 50%;  /*ajuste da posição da imagem*/
+}
+.texto {
+   /*margin: 40px;empura 40px em cima, baixo e lados*/
+   margin: 0 130px;/*empura 0 em cima e baixo e 130px dos lados*/
+   height: 400px;/*altura*/
+}
+h1 {
+    color: rgb(55,53,47);
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span {
+    color: rgb(55,53,47);
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icone {
+    width: 25px;/*largura do cmponente pai main*/
+    height: 25px; /*altura da imagem*/
+}
+.alinhamento{
+    display: flex;
+    align-items: center;
+}

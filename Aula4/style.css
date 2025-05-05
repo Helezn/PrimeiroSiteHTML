@@ -1,0 +1,16 @@
+/*o ponto antes é uma forma de vincular*/
+.botão-vermelho {
+    background-color: red;
+}
+.botão-verde {
+    background-color: green;
+}/*se o botão ficar abaixo do azul não pega o atributo*/
+
+.botão-vermelho {
+    background-color: blue;
+}/*o botão ficará azul pois a prioridade é o de baixo*/
+
+/*outra forma de vincular é pela tag*/
+button{
+    background-color: red;
+}/*só funciona se apagar os botões anteriores*/

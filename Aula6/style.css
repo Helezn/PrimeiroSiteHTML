@@ -1,0 +1,30 @@
+.cointainer{
+display: grid;/*divide em grade*/
+grid-template-columns: 3fr 1fr;
+grid-gap:3px;
+grid-row-gap: 9px;/*separa linhas *column */
+
+}
+body{
+    margin:0;
+}
+header {
+    background-color: #5fc45f;
+    height: 50px;/*altura*/
+    grid-column-start: 1;/*dizendo para o header qual coluna vai começar*/
+    grid-column-end: 3;/*dizendo para o header qual coluna vai terminar*/
+}
+main {
+    background-color: #C4AE5F;
+    height: 100px;
+}
+aside {
+    background-color: #c45fb7;
+    height: 100px;
+}
+footer {
+    background-color: #c7324c;
+    height: 300px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
